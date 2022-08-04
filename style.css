@@ -1,0 +1,516 @@
+nav {
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  position: sticky;
+}
+
+h1 {
+  color: rgb(0, 48, 111);
+  font-size: 75px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+  text-shadow: 2px 2px lightblue;
+  margin-right: 10px;
+  display: inline-block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navp {
+  display: inline-block;
+}
+
+#Sch {
+  margin-bottom: 0px;
+  margin-top: 3px;
+  font-size: 30px;
+  padding: 0;
+  color: rgb(0, 48, 111);
+  text-shadow: 2px 2px lightblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#Of {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: rgb(0, 48, 111);
+  text-shadow: 2px 2px lightblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.vertical-line {
+  display: inline-block;
+  border-left: 2px solid rgb(0, 48, 111);
+  margin: 0 10px;
+  height: 60px;
+}
+
+#Logo {
+  height: 85px;
+  margin: 0;
+  display: inline-block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  margin-right: 0;
+}
+
+.Links {
+  font-size: 30px;
+  text-align: right;
+  margin-top: 35px;
+}
+
+a {
+  color: rgb(0, 48, 111);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(0, 48, 111);
+  border-bottom: 4px solid rgb(0, 48, 111);
+}
+
+.whiteBackground {
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 9999;
+}
+
+#Twitter {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2 {
+  color: rgb(0, 48, 111);
+  display: table;
+  text-shadow: 2px 2px lightblue;
+  font-size: 35px;
+}
+
+h3 {
+  color: rgb(0, 48, 111);
+  text-shadow: 2px 2px lightblue;
+  font-size: 25px;
+  display: inline-table;
+}
+
+.mainInfo {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.subInfo {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.subSubInfo {
+  font-size: 15px;
+}
+
+.cancelled {
+  text-decoration: line-through;
+}
+
+.smallInfo {
+  font-size: 14px;
+}
+
+.rightBorder {
+  border-right: 1px solid black;
+  padding-right: 30px;
+}
+
+.oneThird {
+  width: 31%;
+  margin-right: 0;
+  margin-left: 17px;
+}
+
+.noMargin {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.mySlides {
+  width: 100% !important;
+}
+
+h4 {
+  color: rgb(0, 48, 111);
+}
+
+.imageRight {
+  float: right;
+  max-width: 45%;
+  max-height: 45%;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.imageLeft {
+  float: left;
+  max-width: 45%;
+  max-height: 45%;
+  margin: 10px;
+}
+
+td,
+th {
+  border: 1px solid rgba(18, 6, 125, 0.2);
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+tr:nth-child(2n + 3) {
+  background-color: rgb(6, 120, 125, 0.2);
+}
+
+.min {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.showOnClick {
+  display: none;
+}
+
+.programBoxes {
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.styledBox {
+  border: 1px rgba(7, 29, 135, 0.5) solid;
+  background-color: rgba(18, 6, 125, 0.04);
+  margin-top: 20px;
+}
+
+.programBoxes:hover {
+  cursor: pointer;
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#AboutTheAuthor {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#Blog {
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+#Gallery {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+hr {
+  border: 0.5px solid rgba(7, 96, 135, 0.2);
+}
+
+form {
+  display: inline-block;
+  padding: 15px;
+  background-color: rgba(18, 6, 125, 0.03);
+  border: 1px solid rgba(7, 96, 135, 0.5);
+  border-radius: 10px;
+}
+
+#CenterForm {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input {
+  display: inline;
+  min-height: 25px;
+  min-width: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+label {
+  display: inline;
+  font-size: 20px;
+}
+
+.formLine {
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.submitButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input:focus {
+  background-color: rgba(18, 6, 125, 0.1);
+}
+
+.admissionsColumn {
+  padding: 20px !important;
+}
+
+img {
+  width: 100%;
+}
+
+/* All styling for clicking slideshow taken from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow*/
+#galleryContainer {
+  position: relative;
+  margin: auto;
+  width: 65%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.gallerySlide {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.end {
+  margin-bottom: 30px;
+}
+
+.Phone {
+  display: none;
+}
+
+.SmallHeader {
+  display: none;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#YSOA {
+  margin: auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 850px) and (min-width: 500px) {
+  .Phone {
+    display: block;
+  }
+  .Computer {
+    display: none;
+  }
+  #galleryContainer {
+    width: 95%;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .Links {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  .mainInfo {
+    font-size: 20px;
+  }
+  .subInfo {
+    font-size: 16px;
+  }
+  .subSubInfo {
+    font-size: 14px;
+  }
+  .programBoxes {
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .styledBox {
+    margin: auto;
+  }
+  .BigHeader {
+    display: none;
+  }
+  .SmallHeader {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Phone {
+    display: block;
+  }
+  .Computer {
+    display: none;
+  }
+  #galleryContainer {
+    width: 95%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .Links {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .mainInfo {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 13px;
+  }
+  .subInfo {
+    font-size: 13px;
+  }
+  .subSubInfo {
+    font-size: 12px;
+  }
+  .BigHeader {
+    display: none;
+  }
+  .SmallHeader {
+    display: block;
+  }
+  .programBoxes {
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  #galleryContainer {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 851px) {
+  .BigHeader {
+    display: none;
+  }
+  .SmallHeader {
+    display: block;
+  }
+  .Links {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0px;
+  }
+}
+
+.float-container {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.float-child-left {
+  padding: 15px;
+  width: 75%;
+  float: left;
+}
+
+.float-child-left-bigger {
+  padding: 15px;
+  width: 80%;
+  float: left;
+}
+
+.float-child-right {
+  font-size: 20px;
+  padding: 20px;
+  width: 25%;
+  float: right;
+  text-align: right;
+}
+
+.float-child-right-smaller {
+  font-size: 20px;
+  padding: 20px;
+  width: 20%;
+  float: right;
+  text-align: right;
+}
